@@ -1,0 +1,86 @@
+.header{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    cursor: pointer;
+
+}
+.header ul{
+    display: flex;
+    margin-left:300px ;
+}
+.header ul li{
+    text-decoration: none;
+    padding-left: 40px;
+    justify-content: center;
+    list-style: none;
+}
+.header ul li a{
+    text-decoration: none;
+    color:white;
+}
+.header ul button{
+    border-color: yellow;
+    background-color: black;
+    color: yellow;
+}
+.ro{
+    background: url(./assist/room\ $suit.png);
+    height: 80vh;
+    width: 100%;
+}
+.om{
+    text-align: center;
+    color: white;
+    padding-top: 15rem;
+}
+.jun{
+    background-color: rgb(31, 30, 30);
+    height: 10vh;
+
+}
+.ke{
+    background-color: white;
+    color: rgb(66, 64, 64);
+    width: 800px;
+    height: 40px;
+    padding-top: 1rem;
+}
+.rooms{
+    background-color: rgb(51, 49, 49);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 200vh;
+    width: 100%;
+
+}
+.r{
+    border-color: rgba(255, 235, 205, 0.979);
+    color: white;
+    padding-left: 5rem;
+}
+.o{
+    color: white;
+}
+.m{
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: white;
+    background-color: rgb(70, 69, 69);
+    height: 40vh;
+    padding-left: 10rem;
+}

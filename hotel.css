@@ -1,0 +1,117 @@
+.header{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+}
+.header ul{
+    display: flex;
+    margin-left:300px ;
+}
+.header ul li{
+    text-decoration: none;
+    padding-left: 40px;
+    justify-content: center;
+    list-style: none;
+}
+.header ul li a{
+    text-decoration: none;
+    color:white;
+}
+.header ul button{
+    border-color: yellow;
+    background-color: black;
+    color: yellow;
+}
+.pic{
+    background: url(./assist/1.png);
+    height: 100vh;
+    /* width: 200vh; */
+}
+.ta{
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+}
+.st{
+    display: grid;
+    color: white;
+    grid-template-columns: repeat(3,1fr);
+}
+.de{
+    padding-left: 5rem;
+}
+.ke{
+    background-color: white;
+    color: rgb(66, 64, 64);
+    width: 800px;
+    height: 40px;
+    padding-top: 1rem;
+}
+.to{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(59, 55, 55);
+    text-align: center;
+    height: 10vh;
+    padding-top: 1rem;
+    color: white;
+}
+.award{
+    display: grid;
+    background-color: rgb(27, 23, 23);
+    height: 90vh;
+}
+.aw{
+    text-align: center;
+    color: white;
+    padding-top: 2rem;
+}
+.rd{
+    grid-template-columns: repeat(3,1fr);
+    gap:3rem ;
+     
+
+}
+.best{
+    background: url(./assist/best\ bg.png);
+    background-color: rgb(54, 52, 52);
+    height: 100vh;
+
+
+
+}
+.be{
+    text-align: center;
+    color: white;
+    padding-top: 2rem;
+}
+.deluxe{
+    display: grid;
+    background: url(./assist/room\ $suit.png);
+    background-color: rgb(70, 66, 66);
+    color: white;
+    grid-template-columns: repeat(2,1fr);
+    height: 70vh;
+    padding-top: 5rem;
+}
+.lu button{
+    background-color: yellow;
+
+}
+.map{
+    background-color: rgb(68, 64, 64);
+    height: 50vh;
+    padding-top: 3rem;
+    
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: white;
+    background-color: rgb(70, 69, 69);
+    height: 60vh;
+    padding-left: 10rem;
+    padding-top: 5rem;
+}
